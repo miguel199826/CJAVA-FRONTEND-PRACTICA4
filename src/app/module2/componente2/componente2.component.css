@@ -1,0 +1,107 @@
+:root {
+  
+    --foundation-secondary-secondary-200: #FAFAFA;
+    --foundation-neutral-neutral-400:#444;
+    --foundation-primary-primary-600:#AE040F;
+    --foundation-sky-green-skygreen-800:#2D8C80;
+    --foundation-secondary-secondary-50:#FEFEFE;
+    
+    --foundation-neutral-neutral-400:#444;
+    --foundation-sky-green-skygreen-800:#2D8C80;
+   --foundation-secondary-secondary-500: #F5F5F5;
+  }
+  
+  
+  .container{
+    
+    display: flex;
+    width: 1728px;
+    padding: 35px 100px 10px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  
+    .login{
+      display: flex;
+      padding-bottom: 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      align-self: stretch;
+    }
+        .login__card{
+          display: flex;
+          width: 820px;
+          padding: 40px 60px;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          border-radius: 20px;
+          background: var(--foundation-secondary-secondary-200, #FAFAFA);
+  
+          /* Search shadow */
+          box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+        }
+          /* Bloque principal */
+            .login__card__text-box {
+              border-radius: 12px;
+              border: 1px solid var(--foundation-neutral-neutral-400, #444);
+              background: var(--foundation-secondary-secondary-200, #FAFAFA);
+            }
+  
+              /* Modificador para el primer estilo */
+              .login__card__text-box--username {
+                display: flex;
+                height: 64px;
+                padding: 10px 24px 10px 16px;
+                align-items: center;
+                gap: 12px;
+                align-self: stretch;
+              }
+  
+  
+              /* Modificador para el segundo estilo */
+              .login__card__text-box--password {
+                display: flex;
+                height: 70px;
+                padding: 10px 16px;
+                align-items: center;
+                gap: 12px;
+                align-self: stretch;
+              }
+              .login__card__text-box--margin-bottom{
+                margin-bottom: 20px;
+              }
+  
+                .login__card__text-box__icon{
+                  width: 30px;
+                  height: 30px;
+                }
+  
+                .login__card__text-box__icon--color{
+                  color: #0C78E5;
+                }
+  
+  
+  
+                .login__card__captcha{
+                  display: flex;
+                  height: 57px;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 16px;
+                  align-self: stretch;
+                }
+                .login__card__captcha--margin-bottom{
+                  margin-bottom: 20px;
+                }
+  
+  
+                .captcha-layout-img{
+                  width: 203px;
+                height: 57px;
+                }
+                
+                
