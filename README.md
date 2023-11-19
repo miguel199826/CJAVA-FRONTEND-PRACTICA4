@@ -1,4 +1,5 @@
-# Pracrtica4v2
+# Pracrtica4
+Desarrollar una aplicación angular que tenga tres módulos y dos componentes usando routing para ver los componentes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
